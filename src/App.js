@@ -9,6 +9,8 @@ function App() {
         <p>
          This is my_blog app
          These are changes
+         <br/>
+         <p>A new line are added</p>
         </p>
         <a
           className="App-link"
