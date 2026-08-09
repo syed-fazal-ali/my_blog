@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './Login';
+import login from './login';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
  <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Login />
+        <login />
         <p>
          This is my_blog app
          These are changes
