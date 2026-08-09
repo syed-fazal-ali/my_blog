@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import login from './login';
+import Login from './Login';
 
 function App() {
   return (
-    <div className="App">
+    <>
+ <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <login />
+        <Login />
         <p>
          This is my_blog app
          These are changes
@@ -24,6 +25,8 @@ function App() {
         </a>
       </header>
     </div>
+    </>
+   
   );
 }
 
